@@ -18,4 +18,6 @@ dependencies {
     implementation(libs.ktor.server.netty)
     testImplementation(libs.ktor.server.tests)
     testImplementation(libs.kotlin.test.junit)
+    implementation(libs.ktor.serialization)
+    implementation(libs.ktor.server.content.negotiation)
 }
