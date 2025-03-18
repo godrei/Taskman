@@ -9,7 +9,7 @@ import androidx.compose.ui.test.printToLog
 import androidx.compose.ui.test.runComposeUiTest
 import kotlin.test.Test
 
-class UiTests {
+class AppTest {
 
     @OptIn(ExperimentalTestApi::class)
     @Test
